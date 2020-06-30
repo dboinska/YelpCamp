@@ -13,3 +13,9 @@
 #delected-form {
     display: inline;
 }
+ 
+.navbar-default {
+    position: fixed;
+    z-index: 1000;
+    width: 100%;
+} 

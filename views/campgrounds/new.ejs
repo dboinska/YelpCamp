@@ -1,8 +1,10 @@
 <%- include('../partials/header') %>
-<div class="container">
-    <div class="row">
+<link rel="stylesheet" href="/stylesheets/page.css">
+
+<div class="container new-campground">
+    <div class="row padding-top">
         <h1 style="text-align: center">Create a New Campground</h1>
-        <div style="width: 30%; margin: 30px auto">
+        <div style="width: 100%; margin: 30px auto">
             <form action="/campgrounds" method="POST">
                 <div class="form-group">
                     <input class="form-control" type="text" name="name" placeholder="name">
@@ -16,12 +18,15 @@
                 <div class="form-group">
                     <input class="form-control" type="text" name="description" placeholder="description">
                 </div>
-                <div class="form-group">
+                <div class="form-group justify-content-between">
+                    <a href="/campgrounds">Go Back</a>
                     <button class="btn btn-lg btn-primary">Submit</button>
                 </div>
             </form>
-            <a href="/campgrounds">Go Back</a>
+            
         </div>
     </div>
 </div>
+
+
 <%- include('../partials/footer') %>

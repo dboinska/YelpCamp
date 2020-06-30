@@ -1,0 +1,14 @@
+.thumbnail {
+    height: 275px;
+}
+.thumbnail img {
+    height: 173px;
+}
+.thumbnail .col-sm-6 {
+    min-width: 480px;
+    max-width: 480px;
+    /* min-height: 173px ; */
+}
+.col-md-3 {
+    min-width:173px;
+}
